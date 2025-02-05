@@ -1,6 +1,6 @@
 package level0;
 
-public class Solved_2 {
+public class Solved_02 {
     public int solution(int num1, int num2) {
         int answer = 0;
         if ( num1 == num2 ) {

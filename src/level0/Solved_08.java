@@ -1,6 +1,6 @@
 package level0;
 
-public class Solved_8 {
+public class Solved_08 {
     public int solution(int angle) {
         int answer = 0;
         if(angle > 0 && angle < 90) {

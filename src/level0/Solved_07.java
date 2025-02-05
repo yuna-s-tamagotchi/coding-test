@@ -1,6 +1,6 @@
 package level0;
 
-public class Solved_7 {
+public class Solved_07 {
     public double solution(int[] numbers) {
         double answer = 0;
         int sum = 0;

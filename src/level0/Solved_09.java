@@ -1,6 +1,6 @@
 package level0;
 
-public class Solved_9 {
+public class Solved_09 {
     public int solution(int n, int k) {
         int answer = 0;
         int meat = 12000;
