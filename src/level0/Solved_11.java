@@ -1,12 +1,14 @@
 package level0;
 
-public class Solved_10 {
-    public int solution(int n) {
+public class Solved_11 {
+    public int solution(int slice, int n) {
         int answer = 0;
-
-        for(int i = 1; i <= n; i++){
-            if(i % 2 == 0) {
-                answer += i;
+        if(slice >= 2 && slice <= 10 && n >= 1 && n <= 100) {
+            for (int i = 1; i <= n; i++) {
+                if ( slice * i >= n) {
+                    answer = i;
+                    break;
+                }
             }
         }
         return answer;
