@@ -12,6 +12,7 @@ public class Solved_24 {
 //        answer 배열에 값을 넣는다.
 //        어케함? 아나 ㅋㅋ
         //기면정 바보
+        //바보 2
         return answer;
     }
 }
