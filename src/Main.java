@@ -130,5 +130,21 @@ public class Main {
         Solved_30 solved30 = new Solved_30();
         System.out.println("30. 아이스 아메리카노: " + Arrays.toString(solved30.solution(15000)));
         System.out.println();
+
+        Solved_31 solved31 = new Solved_31();
+        int[] numbers31 = {3, 6, 2};
+        System.out.println("31. 삼각형의 완성조건 (1): " + solved31.solution(numbers31));
+        System.out.println();
+
+        Solved_32 solved32 = new Solved_32();
+        int[] numbers32 = {4, 5, 6, 7, 8, 9, 10, 11, 12};
+        System.out.println("32. n의 배수 고르기: " + Arrays.toString(solved32.solution(3, numbers32)));
+        System.out.println();
+
+        Solved_33 solved33 = new Solved_33();
+        String[] s1 = {"a", "b", "c"};
+        String[] s2 = {"com", "b", "d", "p", "c"};
+        System.out.println("33. 배열의 유사도: " + (solved33.solution(s1, s2)));
+        System.out.println();
     }
 }
