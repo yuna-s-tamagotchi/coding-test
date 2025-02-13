@@ -1,6 +1,7 @@
 package level0;
 
-import java.util.Objects;
+// 모음 제거
+// 한번씩만 나오고 시픈디 ㅜㅜ
 
 public class Solved_20 {
     public String solution(String my_string) {

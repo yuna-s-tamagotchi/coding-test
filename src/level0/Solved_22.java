@@ -1,5 +1,8 @@
 package level0;
 
+// 순서쌍의 개수
+// 어디서 틀린건지 몰겠다
+
 public class Solved_22 {
     public int solution(int n) {
         int answer = 0;

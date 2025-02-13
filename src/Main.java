@@ -1,6 +1,7 @@
 import level0.*;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -102,7 +103,7 @@ public class Main {
 
         Solved_24 solved24 = new Solved_24();
         int[] numbers24 = {1, 2, 3, 4, 5};
-        System.out.println("*** 24. 배열 자르기: " + Arrays.toString(solved24.solution(numbers24, 1, 3)));
+        System.out.println("24. 배열 자르기: " + Arrays.toString(solved24.solution(numbers24, 1, 3)));
         System.out.println();
 
         Solved_25 solved25 = new Solved_25();
@@ -129,6 +130,38 @@ public class Main {
 
         Solved_30 solved30 = new Solved_30();
         System.out.println("30. 아이스 아메리카노: " + Arrays.toString(solved30.solution(15000)));
+        System.out.println();
+
+        Solved_34 solved34 = new Solved_34();
+        int[] numbers34 = {149, 180, 192, 170};
+        System.out.println("34. 머쓱이보다 키 큰 사람: " + solved34.solution(numbers34, 167));
+        System.out.println();
+
+        Solved_35 solved35 = new Solved_35();
+        System.out.println("35. 두 수의 나눗셈: " + solved35.solution(7, 3));
+        System.out.println();
+
+        Solved_36 solved36 = new Solved_36();
+        int[] numbers36 = {1, 1, 2, 3, 4, 5};
+        System.out.println("36. 중복된 숫자 개수: " + solved36.solution(numbers36, 1));
+        System.out.println();
+
+        Solved_37 solved37 = new Solved_37();
+        int[] numbers37 = {1, 2, 100, -99, 1, 2, 3};
+        System.out.println("37. 배열 두 배 만들기: " + Arrays.toString(solved37.solution(numbers37)));
+        System.out.println();
+
+        Solved_38 solved38 = new Solved_38();
+        System.out.println("38. 문자열 붙여서 출력하기: Scanner 문제");
+        System.out.println();
+
+        Solved_39 solved39 = new Solved_39();
+        System.out.println("39. 홀짝 구분하기: Scanner 문제");
+        System.out.println();
+
+        Solved_40 solved40 = new Solved_40();
+        int[] numbers40 = {1, 2, 7, 10, 11};
+        System.out.println("40. 중앙값 구하기: " + solved40.solution(numbers40));
         System.out.println();
     }
 }
