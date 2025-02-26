@@ -182,7 +182,7 @@ public class Main {
 
         Solved_53 solved53 = new Solved_53();
         int[] num53 = {9, 10, 11, 8};
-        System.out.println("53. 가장 큰 수 찾기: " + solved53.solution(num53));
+        System.out.println("53. 가장 큰 수 찾기ddd: " + solved53.solution(num53));
         System.out.println();
     }
 }
