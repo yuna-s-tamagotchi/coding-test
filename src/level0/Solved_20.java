@@ -1,21 +1,35 @@
 package level0;
 
-// 모음 제거
-// 한번씩만 나오고 시픈디 ㅜㅜ
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Solved_20 {
     public String solution(String my_string) {
-        String answer = "";
+        StringBuilder answer = new StringBuilder(my_string);
         String[] stringArr = {"a", "e", "i", "o", "u"};
         String[] myStringArr = my_string.split("");
+        ArrayList<Integer> list = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
 
-        for(int i = 0; i < myStringArr.length; i++){
-            for(int j = 0; j < stringArr.length; j++){
-                if(!myStringArr[i].equals(stringArr[j])){
-                    answer += myStringArr[i];
+
+        for (int i = 0; i < myStringArr.length; i++) {
+            for (String string : stringArr) {
+                if (myStringArr[i].equals(string)) {
+                    list.add(i);
                 }
             }
         }
-        return answer;
+
+        for (Integer i : list) {
+            for (String s : myStringArr) {
+                    System.out.println("s: " + s + ", idx: " + my_string.charAt(i));
+            }
+        }
+
+
+
+        return answer.toString();
     }
 }
