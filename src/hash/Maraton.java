@@ -16,8 +16,6 @@ class Maraton {
 
 class Solution1 {
     public String solution(String[] participant, String[] completion) {
-        String answer = "";
-
         Map<String, Integer> mapParticipant = new HashMap<>();
         Map<String, Integer> mapCompletion = new HashMap<>();
 

@@ -13,7 +13,6 @@ public class Phoneketmon {
 
 class Solution2 {
     public int solution(int[] nums) {
-        int answer = 0;
         int canGet = nums.length / 2;
 
         Set<Integer> hashset = new HashSet<>();
@@ -22,8 +21,10 @@ class Solution2 {
             hashset.add(num);
         }
 
-        if (hashset.toArray().length < canGet) return hashset.toArray().length;
+//        if (hashset.toArray().length < canGet) return hashset.toArray().length;
         // 다른 사람의 풀이를 보니까 size()를 쓰면 된다! 맞다맞다
+
+        if (hashset.size() < canGet) return hashset.size();
 
         return canGet;
     }
