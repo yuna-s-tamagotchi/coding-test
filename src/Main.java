@@ -85,9 +85,9 @@ public class Main {
 //        System.out.println("19. 자릿수 더하기: " + solved19.solution(1234));
 //        System.out.println();
 
-        Solved_20 solved20 = new Solved_20();
-        System.out.println("*** 20. 모음 제거: " + solved20.solution("nice to meet you"));
-        System.out.println();
+//        Solved_20 solved20 = new Solved_20();
+//        System.out.println("*** 20. 모음 제거: " + solved20.solution("nice to meet you"));
+//        System.out.println();
 
 //        Solved_21 solved21 = new Solved_21();
 //        System.out.println("21. 특정 문자 제거하기: " + solved21.solution("abcdef", "f"));
@@ -163,5 +163,11 @@ public class Main {
 //        int[] numbers40 = {1, 2, 7, 10, 11};
 //        System.out.println("40. 중앙값 구하기: " + solved40.solution(numbers40));
 //        System.out.println();
+
+        Solved_41 solved41 = new Solved_41();
+        int[] box = {10, 8, 6};
+        int n = 3;
+        System.out.println("41. 주사위의 개수: " + solved41.solution(box, n));
+        System.out.println();
     }
 }
