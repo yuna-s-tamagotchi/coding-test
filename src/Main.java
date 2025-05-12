@@ -1,6 +1,7 @@
 import level0.*;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -55,7 +56,7 @@ public class Main {
         System.out.println();
 
         Solved_13 solved13 = new Solved_13();
-        System.out.println("*** 13. 문자열안에 문자열: " + solved13.solution("ab6CDE443fgh22iJKlmn1o", "6CD"));
+        System.out.println("13. 문자열안에 문자열: " + solved13.solution("ab6CDE443fgh22iJKlmn1o", "6CD"));
         System.out.println();
 
         Solved_14 solved14 = new Solved_14();
@@ -146,5 +147,97 @@ public class Main {
         String[] s2 = {"com", "b", "d", "p", "c"};
         System.out.println("33. 배열의 유사도: " + (solved33.solution(s1, s2)));
         System.out.println();
+      
+        Solved_34 solved34 = new Solved_34();
+        int[] numbers34 = {149, 180, 192, 170};
+        System.out.println("34. 머쓱이보다 키 큰 사람: " + solved34.solution(numbers34, 167));
+        System.out.println();
+
+        Solved_35 solved35 = new Solved_35();
+        System.out.println("35. 두 수의 나눗셈: " + solved35.solution(7, 3));
+        System.out.println();
+
+        Solved_36 solved36 = new Solved_36();
+        int[] numbers36 = {1, 1, 2, 3, 4, 5};
+        System.out.println("36. 중복된 숫자 개수: " + solved36.solution(numbers36, 1));
+         System.out.println();
+
+         Solved_37 solved37 = new Solved_37();
+         int[] numbers37 = {1, 2, 100, -99, 1, 2, 3};
+         System.out.println("37. 배열 두 배 만들기: " + Arrays.toString(solved37.solution(numbers37)));
+         System.out.println();
+
+         Solved_38 solved38 = new Solved_38();
+         System.out.println("38. 문자열 붙여서 출력하기: Scanner 문제");
+         System.out.println();
+
+         Solved_39 solved39 = new Solved_39();
+         System.out.println("39. 홀짝 구분하기: Scanner 문제");
+         System.out.println();
+
+         Solved_40 solved40 = new Solved_40();
+         int[] numbers40 = {1, 2, 7, 10, 11};
+         System.out.println("40. 중앙값 구하기: " + solved40.solution(numbers40));
+         System.out.println();
+
+        Solved_41 solved41 = new Solved_41();
+        System.out.println("41. 짝수는 싫어요: " + Arrays.toString(solved41.solution(10)));
+        System.out.println();
+
+        Solved_42 solved42 = new Solved_42();
+        System.out.println("42. n의 배수: " + solved42.solution(34, 3));
+        System.out.println();
+
+        Solved_43 solved43 = new Solved_43();
+        System.out.println("43. 옷가게 할인 받기: " + solved43.solution(100010));
+        System.out.println();
+
+        Solved_44 solved44 = new Solved_44();
+        System.out.println("44. 직각삼각형 출력하기: 스캐너 문제");
+        System.out.println();
+
+        Solved_45 solved45 = new Solved_45();
+        System.out.println("45. 홀짝에 따라 다른 값 반환하기: " + solved45.solution(10));
+        System.out.println();
+
+        Solved_46 solved46 = new Solved_46();
+        System.out.println("*** 46. 개미 군단: " + solved46.solution(23));
+        System.out.println();
+
+        Solved_47 solved47 = new Solved_47();
+        System.out.println("47. 가위 바위 보: " + solved47.solution("205"));
+        System.out.println();
+
+        Solved_48 solved48 = new Solved_48();
+        System.out.println("48. 숨어있는 숫자의 덧셈 (1): " + solved48.solution("aAb1B2cC34oOp"));
+        System.out.println();
+
+        Solved_49 solved49 = new Solved_49();
+        int[] numbers49 = {1, 2, -3, 4, -5};
+        System.out.println("*** 49. 최댓값 만들기 (2): " + solved49.solution(numbers49));
+        System.out.println();
+
+        Solved_50 solved50 = new Solved_50();
+        System.out.println("50. 대문자와 소문자: " + solved50.solution("abCdEfghIJ"));
+        System.out.println();
+
+        Solved_51 solved51 = new Solved_51();
+        System.out.println("51. 인덱스 바꾸기: " + solved51.solution("hello", 1, 2));
+        System.out.println();
+
+        Solved_52 solved52 = new Solved_52();
+        System.out.println("52. 약수 구하기: " + solved52.solution(24));
+        System.out.println();
+
+        Solved_53 solved53 = new Solved_53();
+        int[] num53 = {9, 10, 11, 8};
+        System.out.println("53. 가장 큰 수 찾기: " + solved53.solution(num53));
+        System.out.println();
+      
+       Solved_54 solved54 = new Solved_54();
+       int[] box = {10, 8, 6};
+       int n = 3;
+       System.out.println("54. 주사위의 개수: " + solved54.solution(box, n));
+       System.out.println();
     }
 }
