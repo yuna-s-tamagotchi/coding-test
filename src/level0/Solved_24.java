@@ -17,8 +17,13 @@ public class Solved_24 {
 
         for (int i = 0; i < answer.length; i++){
             answer[i] = numbers[i];
-        }
 
+//        numbers[i] 값의 갯수를 구한다.
+//        갯수 만큼 for문을 돌린다.
+//        answer 배열에 값을 넣는다.
+//        어케함? 아나 ㅋㅋ
+        //기면정 바보
+          
         return answer;
     }
 }
