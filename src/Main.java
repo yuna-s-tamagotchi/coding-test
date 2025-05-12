@@ -164,10 +164,15 @@ public class Main {
 //        System.out.println("40. 중앙값 구하기: " + solved40.solution(numbers40));
 //        System.out.println();
 
-        Solved_41 solved41 = new Solved_41();
-        int[] box = {10, 8, 6};
-        int n = 3;
-        System.out.println("41. 주사위의 개수: " + solved41.solution(box, n));
+//        Solved_41 solved41 = new Solved_41();
+//        int[] box = {10, 8, 6};
+//        int n = 3;
+//        System.out.println("41. 주사위의 개수: " + solved41.solution(box, n));
+//        System.out.println();
+
+        Solved_42 solved42 = new Solved_42();
+        String my_string = "hi12392";
+        System.out.println("42. 주사위의 개수: " + solved42.solution(my_string));
         System.out.println();
     }
 }
