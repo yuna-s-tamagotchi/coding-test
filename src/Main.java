@@ -131,6 +131,22 @@ public class Main {
         Solved_30 solved30 = new Solved_30();
         System.out.println("30. 아이스 아메리카노: " + Arrays.toString(solved30.solution(15000)));
         System.out.println();
+
+        Solved_31 solved31 = new Solved_31();
+        int[] numbers31 = {3, 6, 2};
+        System.out.println("31. 삼각형의 완성조건 (1): " + solved31.solution(numbers31));
+        System.out.println();
+
+        Solved_32 solved32 = new Solved_32();
+        int[] numbers32 = {4, 5, 6, 7, 8, 9, 10, 11, 12};
+        System.out.println("32. n의 배수 고르기: " + Arrays.toString(solved32.solution(3, numbers32)));
+        System.out.println();
+
+        Solved_33 solved33 = new Solved_33();
+        String[] s1 = {"a", "b", "c"};
+        String[] s2 = {"com", "b", "d", "p", "c"};
+        System.out.println("33. 배열의 유사도: " + (solved33.solution(s1, s2)));
+        System.out.println();
       
         Solved_34 solved34 = new Solved_34();
         int[] numbers34 = {149, 180, 192, 170};
@@ -218,7 +234,7 @@ public class Main {
         System.out.println("53. 가장 큰 수 찾기: " + solved53.solution(num53));
         System.out.println();
       
-       Solved_54 solved54 = new Solved_41();
+       Solved_54 solved54 = new Solved_54();
        int[] box = {10, 8, 6};
        int n = 3;
        System.out.println("54. 주사위의 개수: " + solved54.solution(box, n));
