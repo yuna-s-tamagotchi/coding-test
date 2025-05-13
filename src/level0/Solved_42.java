@@ -6,17 +6,22 @@ import java.util.Collections;
 import java.util.List;
 
 public class Solved_42 {
-    public int[] solution(String my_string) {
+    public int[] solution(int n, int[] numlist) {
+        int[] answer = {};
+        int count = 0;
 
-        List<String> list = new ArrayList<>(Arrays.asList(my_string.split("")));
 
-        list.removeIf(s -> !s.matches("[0-9]"));
-        Collections.sort(list);
+        for (int num : numlist) {
+            if ( num % n == 0 ){
+                numlist[count++] = num;
+            }
+        }
 
-        int[] answer = new int[list.size()];
+        answer = new int[count];
 
-        for(int i = 0; i < list.size(); i ++) {
-            answer[i] = Integer.parseInt(list.get(i));
+
+        for (int i = 0; i < count; i ++){
+            answer[i] = numlist[i];
         }
 
         return answer;
