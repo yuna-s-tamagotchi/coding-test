@@ -246,10 +246,23 @@ public class Main {
 //        System.out.println("55. 문자열 정렬하기 (1): " + solved55.solution(my_string));
 //        System.out.println();
 
-        Solved_56 solved56 = new Solved_56();
-        String cipher = "dfjardstddetckdaccccdegk";
-        int code = 4;
-        System.out.println("암호 해독: " + solved56.solution(cipher, code));
-        System.out.println();
+//        Solved_56 solved56 = new Solved_56();
+//        String cipher = "dfjardstddetckdaccccdegk";
+//        int code = 4;
+//        System.out.println("암호 해독: " + solved56.solution(cipher, code));
+//        System.out.println();
+
+//        Solved_57 solved57 = new Solved_57();
+//        String my_string = "Bcad";
+//        System.out.println("문자열 정렬하기 (2): " + solved57.solution(my_string));
+
+//        Solved_58 solved58 = new Solved_58();
+//        int num = 29183;
+//        int k = 1;
+//        System.out.println("숫자 찾기: " + solved58.solution(num, k));
+
+        Solved_59 solved59 = new Solved_59();
+        int n = 4;
+        System.out.println("피자 나눠먹기: " + solved59.solution(n));
     }
 }
