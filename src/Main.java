@@ -263,6 +263,6 @@ public class Main {
 
         Solved_59 solved59 = new Solved_59();
         int n = 4;
-        System.out.println("피자 나눠먹기: " + solved59.solution(n));
+        System.out.println("피자 나눠먹기 (2): " + solved59.solution(n));
     }
 }
