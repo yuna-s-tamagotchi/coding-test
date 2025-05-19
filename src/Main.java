@@ -1,7 +1,8 @@
 import level0.*;
 
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -261,8 +262,33 @@ public class Main {
 //        int k = 1;
 //        System.out.println("숫자 찾기: " + solved58.solution(num, k));
 
-        Solved_59 solved59 = new Solved_59();
-        int n = 4;
-        System.out.println("피자 나눠먹기 (2): " + solved59.solution(n));
+//        Solved_59 solved59 = new Solved_59();
+//        int n = 4;
+//        System.out.println("피자 나눠먹기 (2): " + solved59.solution(n));
+
+//        Solved_60 solved60 = new Solved_60();
+//        int age = 23;
+//        System.out.println("외계행성의 나이: " + solved60.solution(age));
+
+//        Solved_61 solved61 = new Solved_61();
+//        int[] numbers = {4, 455, 6, 4, -1, 45, 6};
+//        String direction = "left";
+//        System.out.println("배열 회전시키기: " + Arrays.toString(solved61.solution(numbers, direction)));
+
+//        Solved_62 solved62 = new Solved_62();
+//        int order = 29423;
+//        System.out.println("369게임: " + solved62.solution(order));
+
+//        Solved_63 solved63 = new Solved_63();
+//        String letter = ".... . .-.. .-.. ---";
+//        System.out.println("모스부호 (1): " + solved63.solution(letter));
+
+//        Solved_64 solved64 = new Solved_64();
+//        String my_string = "We are the world";
+//        System.out.println("중복된 문자 제거: " + solved64.solution(my_string));
+
+        Solved_65 solved65 = new Solved_65();
+        int n = 10;
+        System.out.println("합성수 찾기: " + solved65.solution(n));
     }
 }

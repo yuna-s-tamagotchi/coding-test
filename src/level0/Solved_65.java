@@ -1,0 +1,23 @@
+package level0;
+
+public class Solved_65 {
+    public int solution(int n) {
+        int answer = 0;
+
+        for(int i = 1; i <= n; i++){
+            int cnt = 0;
+
+            for(int k = 1; k <= i; k++){
+                if (i % k == 0){
+                    cnt++;
+                }
+            }
+
+            if(cnt >= 3){
+                answer++;
+            }
+        }
+
+        return answer;
+    }
+}
