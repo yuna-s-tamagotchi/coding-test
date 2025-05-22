@@ -1,4 +1,5 @@
 import level0.Solved_69;
+import level0.Solved_70;
 
 import java.util.Arrays;
 
@@ -303,8 +304,13 @@ public class Main {
 //        int[] emergency = {1, 2, 3, 4, 5, 6, 7};
 //        System.out.println("*** 진료순서 정하기: " + Arrays.toString(solved68.solution(emergency)));
 
-        Solved_69 solved69 = new Solved_69();
-        String s = "hello";
-        System.out.println("한 번만 등장한 문자: " + solved69.solution(s));
+//        Solved_69 solved69 = new Solved_69();
+//        String s = "hello";
+//        System.out.println("한 번만 등장한 문자: " + solved69.solution(s));
+
+        Solved_70 solved70 = new Solved_70();
+        int[] num_list = {100, 95, 2, 4, 5, 6, 18, 33, 948};
+        int n = 3;
+        System.out.println("2차원으로 만들기: " + Arrays.deepToString(solved70.solution(num_list, n)));
     }
 }
