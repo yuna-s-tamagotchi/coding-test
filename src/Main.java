@@ -1,8 +1,6 @@
-import level0.*;
+import level0.Solved_69;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -97,7 +95,6 @@ public class Main {
 //        Solved_22 solved22 = new Solved_22();
 //        System.out.println("22. 순서쌍의 개수: " + solved22.solution(100));
 //        System.out.println();
-////
 //        Solved_23 solved23 = new Solved_23();
 //        System.out.println("23. 문자 반복 출력하기: " + solved23.solution("hello", 3));
 //        System.out.println();
@@ -287,8 +284,27 @@ public class Main {
 //        String my_string = "We are the world";
 //        System.out.println("중복된 문자 제거: " + solved64.solution(my_string));
 
-        Solved_65 solved65 = new Solved_65();
-        int n = 10;
-        System.out.println("합성수 찾기: " + solved65.solution(n));
+//        Solved_65 solved65 = new Solved_65();
+//        int n = 10;
+//        System.out.println("합성수 찾기: " + solved65.solution(n));
+
+//        Solved_66 solved66 = new Solved_66();
+//        String before = "olleh";
+//        String after = "hello";
+//        System.out.println("A로 B 만들기: " + solved66.solution(before, after));
+
+//        Solved_67 solved67 = new Solved_67();
+//        int i = 1;
+//        int j = 13;
+//        int k = 1;
+//        System.out.println("k의 개수: " + solved67.solution(i, j, k));
+
+//        Solved_68 solved68 = new Solved_68();
+//        int[] emergency = {1, 2, 3, 4, 5, 6, 7};
+//        System.out.println("*** 진료순서 정하기: " + Arrays.toString(solved68.solution(emergency)));
+
+        Solved_69 solved69 = new Solved_69();
+        String s = "hello";
+        System.out.println("한 번만 등장한 문자: " + solved69.solution(s));
     }
 }
