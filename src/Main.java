@@ -1,7 +1,4 @@
-import level0.Solved_69;
-import level0.Solved_70;
-
-import java.util.Arrays;
+import level0.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -308,9 +305,27 @@ public class Main {
 //        String s = "hello";
 //        System.out.println("한 번만 등장한 문자: " + solved69.solution(s));
 
-        Solved_70 solved70 = new Solved_70();
-        int[] num_list = {100, 95, 2, 4, 5, 6, 18, 33, 948};
-        int n = 3;
-        System.out.println("2차원으로 만들기: " + Arrays.deepToString(solved70.solution(num_list, n)));
+//        Solved_70 solved70 = new Solved_70();
+//        int[] num_list = {100, 95, 2, 4, 5, 6, 18, 33, 948};
+//        int n = 3;
+//        System.out.println("2차원으로 만들기: " + Arrays.deepToString(solved70.solution(num_list, n)));
+
+        Solved_71 solved71 = new Solved_71();
+        int n = 7;
+        System.out.println("***팩토리얼: " + solved71.solution(n));
+//
+//        Solved_72 solved72 = new Solved_72();
+//        int[] array = {7, 77, 17};
+//        System.out.println("7의 개수: " + solved72.solution(array));
+
+//        Solved_73 solved73 = new Solved_73();
+//        String my_string = "aAb1B2cC34oOp";
+//        System.out.println("***숨어있는 숫자의 덧셈 (2): " + solved73.solution(my_string));
+
+//        Solved_74 solved74 = new Solved_74();
+//        String my_str = "abc1Addfggg4556b";
+//        int n = 6;
+//        System.out.println("잘라서 배열로 저장하기: " + solved74.solution(my_str, n));
+
     }
 }
